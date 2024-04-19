@@ -50,7 +50,6 @@ const EmployeeList: React.FC = () => {
         <button onClick={toggleDropdown}>Select Columns</button>
         {showDropdown && (
           <div>
-            
             <select
               id="columns"
               multiple
@@ -77,7 +76,7 @@ const EmployeeList: React.FC = () => {
           </tr>
         </thead>
         <tbody>
-          {employeesData.map((employee) => (
+          {employeesData.map((employee: Employee) => (
             <tr key={employee.id}>
               {selectedColumns.map((column) => (
                 <td key={column}>{employee[column.toLowerCase().replace(/\s+/g, "_") as keyof Employee]}</td>
