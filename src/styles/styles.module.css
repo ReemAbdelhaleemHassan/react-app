@@ -1,0 +1,132 @@
+/* styles.module.css */
+/* Layout.tsx */
+.layout {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.sidebarToggle {
+  width: fit-content;
+  height: fit-content;
+  margin-top: 10px;
+  margin-left: 20px;
+  display: flex;
+  align-items: center;
+  background-color: white;
+  color: #3c5e9a;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  border: 1px solid #3c5e9a;
+  border-radius: 5px;
+}
+
+.sidebarToggle:hover {
+  background-color: #274478;
+  color: white;
+}
+
+.sidebarIcon {
+  width: 20px; /* Adjust width as needed */
+  height: 20px; /* Adjust height as needed */
+  margin-right: 5px; /* Add margin to separate icon from text */
+  vertical-align: middle; /* Align icon vertically with text */
+}
+
+/* Header.tsx */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 20px;
+  background-color: #f2f2f2;
+  color: white;
+  height: fit-content;
+}
+
+.logoContainer {
+  background-color: #595959; /* Set background color for logo container */
+  padding: 5px; /* Add padding around logo */
+  border-radius: 10px; /* Add curved edges to the container */
+  display: inline-block; /* Ensure container wraps around logo */
+  border: 1px solid #f46920; /* Add a 1px solid red border around the logo */  
+}
+
+.logo {
+  width: 90px;
+  height: fit-content;
+  border-radius: 10px; /* Match border-radius with container for curved edges */
+}
+
+.welcomeMessage {
+  font-size: 20px;
+  font-weight: bold;
+  margin-right: 30px; 
+  color: #3c5e9a;
+  position: relative;
+  top: 0;
+}
+
+/* Footer.tsx */
+.footer {
+  background-color: #f2f2f2;
+  color: #3c5e9a;
+  padding: 20px;
+  text-align: center;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+/* Sidebar.tsx */
+.sidebar {
+  width: 250px;
+  background-color: #f2f2f2;
+  color: #3c5e9a;
+  margin: 10px;
+  margin-left: 0;
+  height: 100%;
+  font-size: 20px;
+  font-weight: bold;
+  width:fit-content;
+  border-radius: 20px;
+}
+
+.activeItem {
+  background-color: #3c5e9a;
+  color: white;
+  font-weight: bold;
+}
+
+.content {
+  flex: 1;
+  padding: 20px;
+  transition: margin-left 0.3s ease;
+}
+
+.contentExpanded {
+  margin-left: 250px; /*Adjust this value based on your sidebar width */
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  cursor: pointer;
+  padding: 10px;
+  width:fit-content;
+  margin-right: 20px;
+  margin-bottom: 10px;
+  border: 1px solid #3c5e9a;
+  border-radius: 10px;
+}
+
+.contentWrapper {
+  /* Styles for the content wrapper */
+  flex: 1; /* Take up remaining space */
+  display: flex; /* Arrange content horizontally */
+}

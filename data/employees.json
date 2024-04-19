@@ -1,0 +1,67 @@
+[
+    {
+        "id": 1,
+        "name_in_english": "John Doe",
+        "department": "IT",
+        "job_title_english": "Software Engineer",
+        "marital_status": "Single",
+        "religion": "None",
+        "national_id": "1234567890",
+        "expire_date": "2024-12-31",
+        "gender": "Male",
+        "date_of_birth": "1990-05-15",
+        "place_of_birth": "New York"
+    },
+    {
+        "id": 2,
+        "name_in_english": "Jane Smith",
+        "department": "HR",
+        "job_title_english": "HR Manager",
+        "marital_status": "Married",
+        "religion": "Christian",
+        "national_id": "0987654321",
+        "expire_date": "2023-10-15",
+        "gender": "Female",
+        "date_of_birth": "1985-08-20",
+        "place_of_birth": "Los Angeles"
+    },
+    {
+        "id": 3,
+        "name_in_english": "David Johnson",
+        "department": "Finance",
+        "job_title_english": "Financial Analyst",
+        "marital_status": "Married",
+        "religion": "Jewish",
+        "national_id": "1357924680",
+        "expire_date": "2025-06-30",
+        "gender": "Male",
+        "date_of_birth": "1988-11-10",
+        "place_of_birth": "Chicago"
+    },
+    {
+        "id": 4,
+        "name_in_english": "Emily Brown",
+        "department": "Marketing",
+        "job_title_english": "Marketing Specialist",
+        "marital_status": "Single",
+        "religion": "Buddhist",
+        "national_id": "8642097531",
+        "expire_date": "2024-08-15",
+        "gender": "Female",
+        "date_of_birth": "1993-03-25",
+        "place_of_birth": "San Francisco"
+    },
+    {
+        "id": 5,
+        "name_in_english": "Michael Wilson",
+        "department": "Operations",
+        "job_title_english": "Operations Manager",
+        "marital_status": "Married",
+        "religion": "Muslim",
+        "national_id": "9753186420",
+        "expire_date": "2023-05-20",
+        "gender": "Male",
+        "date_of_birth": "1980-07-08",
+        "place_of_birth": "Houston"
+    }
+]
