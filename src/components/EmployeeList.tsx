@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import employeesData from "react-app/data/employees.json";
+import employeesData from "./employees.json";
 import "./EmployeeList_styles.css";
 
 interface Employee {
