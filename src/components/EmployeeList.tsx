@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import employeesData from "C:/Users/reema/Documents/react-app/data/employees.json";
+import employeesData from "data/employees.json/employees.json";
 import "./EmployeeList_styles.css";
 
 interface Employee {
